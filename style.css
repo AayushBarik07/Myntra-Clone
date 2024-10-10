@@ -1,0 +1,312 @@
+*{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    border: border-box;
+}
+.border {
+    border-bottom: 2px solid transparent;
+}
+.border:hover {
+    border-bottom: 2px solid rgb(237, 58, 58);
+}
+.navbar {
+    height: 80px;
+    background-color: whitesmoke;
+    color: #000;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    position: sticky;
+    top: 0;
+}
+.nav-logo {
+    height: 50px;
+    width: 100px;
+}
+.logo {
+    background-image: url("Images/Myntra_logo.png");
+    background-size: cover;
+    height: 50px;
+    width: 100px;
+}
+.category-1 {
+    display: flex;
+    color: black;
+    font-size: 0.85rem;
+    
+}
+.category-2 {
+    display: flex;
+    color: black;
+    font-size: 0.85rem;
+}
+.category-3 {
+    display: flex;
+    color: black;
+    font-size: 0.85rem;
+}
+.category-4 {
+    display: flex;
+    color: black;
+    font-size: 0.85rem;
+}
+.category-5 {
+    display: flex;
+    color: black;
+    font-size: 0.85rem;
+}
+.category-6 {
+    display: flex;
+    color: black;
+    font-size: 0.85rem;
+}
+.nav-search {
+    display: flex;
+    justify-content: space-evenly;
+    width: 600px;
+    height: 40px;
+    border-radius: 4px;
+}
+.search-input {
+    width: 800px;
+    font-size: 1rem;
+    border: none;
+}
+.search-icon {
+    transition-duration: 0.4s;
+    display:flex ;
+    width: 50px;
+    align-items: center;
+    font-size: 1rem;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    background-color: white;
+}
+.search-icon:hover{
+    background-color: rgb(244, 73, 179);
+    color:white;
+}
+.add-icon {
+    display: flex;
+    align-items: center;
+}
+.update-nav {
+    display: flex;
+    align-items: center;  
+}
+.section-1 {
+    background-color: #f5e8e8;
+    height: 100%;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.image-1 {
+    /**background-image: url("Img-1.png");**/
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background-size: cover;
+    height: 180px;
+    width: 1495px;
+    
+}
+.image-2 {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background-size: cover;
+    /**
+    height: 500px;
+    width: 1300px;**/
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 87%;
+}
+.image-3 {
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background-size: cover;
+    height: 150px;
+    width: 1495px;
+}
+.image-4 {
+    /**margin-top: 10px;**/
+    margin-left: 10px;
+    margin-right: 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background-size: cover;
+    height: 150px;
+    width: 1495px;
+}
+.image-5 {
+    /**margin-top: 10px;**/
+    margin-left: 10px;
+    margin-right: 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background-size: cover;
+    height: 150px;
+    width: 1495px;
+}
+.section-2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: #e0f1e0;
+}
+.image-sec-2{
+    /**border: 0.2px solid black;**/
+    height: 330px;
+}
+.image-12 {
+    margin-left: 10px;
+    margin-right: 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background-size: cover;
+    height: 150px;
+    width: 1495px;
+}
+.section-3 {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 20px;
+    margin-right: 20px;
+    justify-content: space-evenly;
+    padding: 15px 20px 30x;
+    margin-top: 20px;
+}    
+.image-sec-3 {
+    margin-top: 15px;
+    margin-bottom: 20px;
+    height: 290px;
+    width: 15%;
+}
+.foot-panel-1 {
+    margin-left: 100px;
+    margin-right: 100px;
+    display: flex;
+
+}
+ul{
+    margin-top: 50px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+ul a{
+    display: block;
+    font-size: 0.75rem;
+    margin-top: 10px;
+}
+.foot-panel-1-image {
+    margin-top: 20px;
+    height: 30%;
+    width: 30%;
+    background-size: cover;
+}
+.extendpanel-1 {
+    margin-top: 30px;
+}
+.extendpanel-1-image {
+    height: 10%;
+    width: 35%;
+}
+.footer-image-1 {
+    background-size: cover;
+    height: 100px;
+}
+.footer-image-2 {
+    background-size: cover;
+    height: 50px;
+}
+.footer-image-3 {
+    transform: rotate(-15deg);
+    background-size: cover;
+    height: 50px;
+}
+.inside-1 {
+    margin-top: 20px;
+}
+.foot-panel-2 {
+    margin-left: 100px;
+    display: flex;
+
+}
+.foot-panel-2 ul a{
+    margin-top: 10px;
+}
+.foot-panel-3 {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.foot-panel-4 {
+    margin-left: 100px;
+    margin-top: 50px;
+    display: flex;
+}
+.inside-2 {
+    margin-left: 450px;
+    margin-top: 120px;
+}
+.foot-panel-5 {
+    margin-top: 50px;
+    margin-left: 100px;
+    display: flex;
+}
+.foot-panel-6 {
+    margin-top: 50px;
+    margin-left: 100px;
+    display: flex;
+}
+.foot-panel-7 {
+    margin-top: 40px;
+    margin-left: 170px;
+    display: flex;
+}
+.foot-panel-8 {
+    margin-top: 50px;
+    margin-left: 100px;
+    display: flex;
+}
+.foot-panel-9 {
+    margin-top: 50px;
+    margin-left: 100px;
+    display: flex;
+}
+.foot-panel-10 {
+    margin-top: 50px;
+    margin-left: 100px;
+    display: flex;
+}
+.foot-panel-11 {
+    margin-top: 50px;
+    margin-left: 100px;
+    display: flex;
+}
+.foot-panel-12 {
+    margin-top: 50px;
+    margin-left: 100px;
+    display: flex;
+}
